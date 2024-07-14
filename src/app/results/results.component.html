@@ -1,0 +1,32 @@
+<div class="container-fluid">
+  <div class="spaces"></div>
+  <p class="display-2"><b>Search Results:</b></p>
+  <button class="btn btn-info" (click)="compareCars()">
+    Compare selected Cars
+  </button>
+  <div class="row">
+    <div *ngFor="let car of filteredCars" class="col-md-4 mb-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">
+            <b>{{ car.name }}</b>
+          </h5>
+          <p class="card-text">
+            <br />
+            <b>Mileage</b>: {{ car.mileage }}<br />
+            <b>Price</b>: ₹ {{ car.price }}
+          </p>
+          <button href="#" class="btn" (click)="openDialog(car)">
+            View Details
+          </button>
+          <button class="btn btn-secondary" (click)="addToCompare(car)">
+            Add to Compare
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button class="btn btn-info" (click)="compareCars()">
+    Compare selected Cars
+  </button>
+</div>

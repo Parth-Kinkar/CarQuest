@@ -1,0 +1,60 @@
+.container-fluid {
+  background-color: black;
+  text-align: center;
+}
+.spaces {
+  height: 5vh;
+}
+.display-2 {
+  color: white;
+  margin-bottom: 6vh;
+  font-family: Bahnschrift;
+}
+.row {
+  width: 80vw;
+  margin-left: 8.5%;
+}
+.card {
+  height: 25vh;
+  width: 24vw;
+  text-align: justify;
+  background-color: rgb(42, 42, 42);
+  color: white;
+  transition: 0.2s ease-in;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+}
+.card:hover {
+  transform: scale(1.03);
+  box-shadow: rgb(219, 126, 233) 0 0 20px 3px;
+}
+.card-title {
+  font-size: 1.43rem;
+  height: 6vh;
+  font-family: Bahnschrift;
+  line-height: 30px;
+}
+.card-text {
+  font-family: Corbel;
+  font-size: 1.05rem;
+  margin-bottom: 25px;
+}
+.btn {
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}
+.btn-secondary {
+  margin-left: 15px;
+}
+.btn-info {
+  margin-bottom: 6vh;
+  padding: 15px;
+  font-size: 1.2rem;
+}

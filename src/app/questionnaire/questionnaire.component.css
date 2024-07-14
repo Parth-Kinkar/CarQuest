@@ -1,0 +1,65 @@
+.container-fluid {
+  background-color: black;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+.little-container {
+  margin-top: 10vh;
+  width: 40vw;
+  background-color: black;
+}
+.card-header {
+  background-color: black;
+  text-align: center;
+  padding: 20px;
+  height: 9vh;
+}
+.card-body {
+  background-color: #0f0f0f;
+  height: 57vh;
+  border-radius: 15px;
+  padding: 30px;
+}
+h2 {
+  color: white;
+  font-size: 2.3rem;
+  font-family: Bahnschrift;
+}
+label {
+  color: white;
+  font-family: Alef;
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+  line-height: 23px;
+}
+.card {
+  border: 0px;
+  background-color: black;
+}
+form .form-group {
+  padding: 10px;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+.form-control {
+  background-color: #161616;
+  opacity: 40%;
+  color: white;
+  border-radius: 13px;
+  height: 42px;
+}
+button {
+  margin-left: 43.5%;
+  background-color: black;
+  border: 0.5px solid white;
+  transition: background-color 0.3s, color 0.3s;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+}

@@ -1,0 +1,35 @@
+.container-fluid {
+  background-color: black;
+}
+.card {
+  background-color: black;
+  color: white;
+}
+.display-5 {
+  margin-bottom: 5vh;
+  font-family: Bahnschrift;
+}
+.title {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+  font-family: bahnschrift;
+  height: 5vh;
+  line-height: 30px;
+}
+.list-group-item {
+  padding: 15px;
+  font-size: 1.3rem;
+  font-family: Corbel;
+}
+.list-group-item {
+  background-color: #232323;
+  color: white;
+  border: 0.2px solid rgb(54, 54, 54);
+}
+.features {
+  width: 13vw;
+  margin-left: 8.9vw;
+}
+.row {
+  margin-right: 2vw;
+}

@@ -1,0 +1,69 @@
+<div class="container-fluid">
+  <div class="little-container">
+    <div class="card">
+      <div class="card-header">
+        <h2>Car Preferences Questionnaire</h2>
+      </div>
+      <div class="card-body">
+        <form [formGroup]="questionnaireForm" (ngSubmit)="onSubmit()">
+          <div class="form-group">
+            <label for="name">Car Make:</label>
+            <input
+              type="text"
+              id="name"
+              formControlName="name"
+              class="form-control"
+              required
+              placeholder="Enter name of the car..."
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="fuelType">Fuel Type:</label>
+            <select
+              id="fuelType"
+              formControlName="fuel"
+              class="form-control dropdown-content"
+              required
+            >
+              <option value="">Select Fuel Type</option>
+              <option value="Gasoline">Petrol</option>
+              <option value="Diesel">Diesel</option>
+              <option value="Electric">Electric</option>
+            </select>
+          </div>
+          <div class="form-group mt-3">
+            <label for="priceRange">Price Range:</label>
+            <input
+              type="text"
+              id="priceRange"
+              formControlName="price"
+              class="form-control"
+              placeholder="e.g. 20000-30000"
+              required
+            />
+          </div>
+          <div class="form-group mt-3">
+            <label for="transmission">Transmission:</label>
+            <select
+              id="transmission"
+              formControlName="transmission"
+              class="form-control"
+              required
+            >
+              <option value="">Select Transmission</option>
+              <option value="Automatic">Automatic</option>
+              <option value="Manual">Manual</option>
+            </select>
+          </div>
+          <button
+            type="submit"
+            (click)="onSubmit()"
+            class="btn btn-primary mt-4"
+          >
+            Submit
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
