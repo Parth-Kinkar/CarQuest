@@ -1,0 +1,25 @@
+<div class="modal-header">
+  <p class="modal-title">
+    <strong>{{ car?.name }}</strong>
+  </p>
+</div>
+<div class="modal-body">
+  <p><b>Manufacturing Year:</b> {{ car?.year }}</p>
+  <p><b>Price:</b> ₹ {{ car?.price }}</p>
+  <p><b>Fuel Type:</b> {{ car?.fuel }}</p>
+  <p><b>Transmission:</b> {{ car?.transmission }}</p>
+  <p><b>Mileage:</b> {{ car?.mileage }}</p>
+  <p><b>Engine:</b> {{ car?.engine }}</p>
+  <p><b>Max Power:</b> {{ car?.max_power }}</p>
+  <p><b>Torque:</b> {{ car?.torque }}</p>
+  <p><b>Number of Seats:</b> {{ car?.seats }}</p>
+</div>
+<div class="modal-footer">
+  <button
+    type="button"
+    class="btn btn-secondary"
+    (click)="activeModal.close('Close click')"
+  >
+    Close
+  </button>
+</div>

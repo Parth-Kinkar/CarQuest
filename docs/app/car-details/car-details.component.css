@@ -1,0 +1,25 @@
+.modal-title {
+  font-family: Bahnschrift;
+  font-size: 1.8rem;
+  line-height: 33px;
+  border-radius: 25px;
+}
+.modal-header {
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.modal-body {
+  font-size: 1.23rem;
+  font-family: Corbel;
+  font-style: italic;
+}
+.modal-footer {
+  position: relative;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  background-color: #2a2a2a;
+}

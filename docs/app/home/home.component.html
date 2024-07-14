@@ -1,0 +1,17 @@
+<div class="container-fluid">
+  <img src="assets\car-front.jpg" alt="Car Photo" class="img-fluid" />
+  <p class="display-2 header">Welcome to CarQuest</p>
+  <p class="stat">
+    Your ultimate destination for car details and specifications
+  </p>
+  <div class="mt-3">
+    <input
+      type="text"
+      [(ngModel)]="searchText"
+      class="form-control"
+      placeholder="We don't pray for love, we just pray for cars, Search for your love..."
+    />
+    <span class="space"></span>
+    <button (click)="onSearch()" class="btn btn-primary mt-2">Search</button>
+  </div>
+</div>

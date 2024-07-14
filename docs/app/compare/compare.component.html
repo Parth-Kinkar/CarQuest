@@ -1,0 +1,42 @@
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-12">
+      <div class="card mb-4">
+        <div class="card-body">
+          <p class="display-5 text-center"><b>Comparison Table:</b></p>
+          <div class="row">
+            <div class="col-md-3">
+              <h5 class="title text-center features">Features :</h5>
+              <ul class="list-group">
+                <li
+                  class="features list-group-item"
+                  *ngFor="let feature of carFeatures"
+                >
+                  <b>{{ feature.title }} :</b>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-9">
+              <div class="row">
+                <div class="col-md-4" *ngFor="let car of compareList">
+                  <h5 class="title text-center">{{ car.name }} :</h5>
+                  <ul class="list-group">
+                    <li class="list-group-item">{{ car.mileage }}</li>
+                    <li class="list-group-item">₹ {{ car.price }}</li>
+                    <li class="list-group-item">{{ car.fuel }}</li>
+                    <li class="list-group-item">{{ car.transmission }}</li>
+                    <li class="list-group-item">{{ car.year }}</li>
+                    <li class="list-group-item">{{ car.engine }}</li>
+                    <li class="list-group-item">{{ car.max_power }}</li>
+                    <li class="list-group-item">{{ car.torque }}</li>
+                    <li class="list-group-item">{{ car.seats }} Seats</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,8 @@
+{
+  "routes": [
+    "/",
+    "/compare",
+    "/questionnaire",
+    "/results"
+  ]
+}

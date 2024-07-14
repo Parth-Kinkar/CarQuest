@@ -1,0 +1,51 @@
+.collapse {
+  margin-left: 65.5vw;
+  font-size: 20px;
+}
+.nav-link {
+  margin-right: 30px;
+}
+.navbar-brand {
+  font-size: 30px;
+  font-weight: 500;
+}
+.container-fluid {
+  background-color: #000000;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: 130px;
+  padding: 15px;
+}
+.navbar {
+  background-color: #000000;
+  margin: 0px;
+  padding: 0px;
+  border: 0px;
+  height: 65px;
+}
+.nav-link {
+  color: white;
+}
+button {
+  margin-top: 10px;
+  font-size: 23px;
+  border-radius: 10px;
+  margin-left: 30px;
+  border: 0px;
+  padding: 10px;
+  background-color: black;
+  color: white;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.nav-btn:hover {
+  color: black;
+  background-color: white;
+}
+a {
+  color: white;
+}
+.navbar-nav {
+  padding: 30px;
+}
